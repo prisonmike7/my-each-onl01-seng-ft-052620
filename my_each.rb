@@ -1,7 +1,7 @@
 def my_each(array)
   i = 0
   while i < array.size
-    yeild(i)
+    yeild(array[i])
     i += 1
   end
   array
